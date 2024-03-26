@@ -17,7 +17,7 @@ def main():
     users = user.load_users()
     if "username" in st.session_state or user.authenticate(users):
         st.session_state.current_user = user.getCurrentUsername()
-        st.image("/Users/emilyramim/Desktop/projects /semester 7/נבונות/penny_app/img.png", width=200,
+        st.image("img.png", width=200,
                  caption="Penny App Logo")
 
         st.title(f"Welcome Back, {st.session_state.current_user}! \U0001F44B")
@@ -48,7 +48,7 @@ def main():
     else:
         st.title("Welcome to the Penny App! \U0001F4B0")
         st.write("please register or log in!")
-        st.image("/Users/emilyramim/Desktop/projects /semester 7/נבונות/penny_app/img.png", width=800 )
+        st.image("img.png", width=800 )
 
 
 
