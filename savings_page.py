@@ -7,7 +7,7 @@ import ast
 import requests
 import time
 API_URL = "https://api-inference.huggingface.co/models/intfloat/e5-small-v2"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer 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"}
 
 MONTHS = list(range(1, 13))
 INCOME_CATEGORIES = ["Salary/Wages", "Bonuses", "Investment income", "Rental income", "Side hustle income",
