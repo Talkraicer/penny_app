@@ -22,7 +22,8 @@ def cosine_similarity_texts(input_text,comapred_text):
     while status != 200:
         response = requests.post(API_URL, headers=headers, json=json_data)
         status = response.status_code
-        time.sleep(1)
+        print(response.text)
+        time.sleep(3)
     return eval(response.text)[0]
 
 def load_data(username):
