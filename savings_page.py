@@ -6,7 +6,7 @@ import numpy as np
 import ast
 import requests
 import time
-API_URL = "https://api-inference.huggingface.co/models/intfloat/e5-base"
+API_URL = "https://api-inference.huggingface.co/models/intfloat/e5-small-v2"
 headers = {"Authorization": "Bearer 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"}
 
 MONTHS = list(range(1, 13))
